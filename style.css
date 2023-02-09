@@ -1,0 +1,130 @@
+body{
+    font-size: 18px;
+}
+/* common */
+a{
+    text-decoration: none;
+}
+.pt-5{
+    padding-top: 60px;
+}
+.py-5{
+    padding: 60px 0px;
+}
+.btn{
+    padding:10px 20px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.container{
+    max-width: 1180px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+.col-6{
+    width: 50%;
+}
+/* Hero section */
+.hero-bg{
+    background: url('images/banner/banner1.png') no-repeat;
+}
+.content{
+    display: block;
+    width: 30%;
+    padding: 15% 10%;
+    float: right;
+}
+img.img-icon{
+    width:16px;
+    height: 16px;
+    color: green;
+    margin-right: 5px;
+}
+.btn.btn-orange{
+    background-color: orange;
+    float: right;
+}
+.title{
+    font-size: 45px;
+    font-weight: bold;
+}
+.text-right{
+    text-align: right;
+}
+/* About section */
+
+/* planning sectoin */
+.text-center{
+    text-align: center;
+}
+.services{
+    display: block;
+    width: 33%;
+    text-align: center;
+}
+
+/* contact section */
+.contact-bg{
+    background: linear-gradient( rgba(225, 39, 11, 0.6) 100%, rgba(232, 199, 188, 0.5) 100%), url('images/watch.png') no-repeat center center;
+    padding: 40px;
+}
+.contact-bg .text-white{
+    font-weight: bold;
+    font-size: 36px;
+}
+.btn-white{
+    background: white;
+    color: orangered;
+    font-weight: bold;
+}
+/* footer section */
+.title.white{
+    text-align: left;
+}
+.bg-black{
+    background: black;
+}
+.info{
+    color:white;
+    padding-right: 10%;
+}
+.text-white{
+    color:white;
+}
+.social-icon img{
+    margin-right: 10px;
+}
+.subscribe{
+    padding-left: 10%;
+}
+.subscribe .title.white{
+    font-size: 32px;
+    color: white;
+}
+.subscribe button{
+    font-size: 22px;
+}
+input[type=text]{
+    font-size: 18px;
+    display: block;
+    width: 40%;
+    padding: 12px 8px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
